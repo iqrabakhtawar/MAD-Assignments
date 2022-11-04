@@ -1,58 +1,261 @@
-import { StatusBar } from 'expo-status-bar';
-import { Image, StyleSheet, Text, View ,TextInput, Button} from 'react-native';
-export default function App() {
+import { StyleSheet, View } from "react-native";
+export default function Ludo() {
   return (
     <View style={styles.container}>
-      
- 
- <Image source = {{uri:'https://www.jing.fm/clipimg/detail/77-776797_laboratory-clipart-science-supply-conical-flask-clip-art.png .png'}}
-   style = {{ width: 100, height: 100,top:120,right:170}}
-   />
+      <View style={styles.wrapper}>
+        <View style={styles.Box1}>
+          <View style={styles.box1}>
+            <View style={styles.row}>
+              <View style={styles.circle}></View>
+              <View style={styles.circle}></View>
+            </View>
+            <View style={styles.row}>
+              <View style={styles.circle}></View>
+              <View style={styles.circle}></View>
+            </View>
+          </View>
+        </View>
+        <View style={styles.wrapper2}>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+        </View>
+        <View style={styles.wrapper2}>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+        </View>
+        <View style={styles.wrapper2}>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+        </View>
 
-<Text style={styles.txt}> Visual website Optimizer</Text>
-      <TextInput style={styles.iinput} 
-      placeholder = 'userName'
-      ></TextInput>
-<TextInput style={styles.iinput} 
-      placeholder = 'Password'
-      ></TextInput>
-      <View style={{height:200,width:200,top:70}}>
-    <Button  title="Login" color="red"> </Button>
-    </View>
+        <View style={styles.Box2}>
+          <View style={styles.box2}>
+            <View style={styles.row}>
+              <View style={styles.circle}></View>
+              <View style={styles.circle}></View>
+            </View>
+            <View style={styles.row}>
+              <View style={styles.circle}></View>
+              <View style={styles.circle}></View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View style={styles.wrapper}>
+      <View style={styles.wrapper2}>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+        </View>
+        <View style={styles.wrapper2}>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+        </View>
+        <View style={styles.wrapper2}>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+        </View>
+        <View style={styles.wrapper2}>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+        </View>
+        <View style={styles.wrapper2}>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+        </View>
+        <View style={styles.wrapper2}>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+        </View>
+        <View style={styles.sqBox}></View>
+        <View style={styles.wrapper2}>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+        </View>
+        <View style={styles.wrapper2}>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+        </View>
+        <View style={styles.wrapper2}>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+        </View>
+        <View style={styles.wrapper2}>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+        </View>
+        <View style={styles.wrapper2}>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+        </View>
+        <View style={styles.wrapper2}>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+        </View>
+      </View>
+      <View style={styles.wrapper}>
+        <View style={styles.Box3}>
+          <View style={styles.box3}>
+            <View style={styles.row}>
+              <View style={styles.circle}></View>
+              <View style={styles.circle}></View>
+            </View>
+            <View style={styles.row}>
+              <View style={styles.circle}></View>
+              <View style={styles.circle}></View>
+            </View>
+          </View>
+        </View>
+        <View style={styles.wrapper2}>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+        </View>
+        <View style={styles.wrapper2}>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+        </View>
+        <View style={styles.wrapper2}>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+          <View style={styles.sbox}></View>
+        </View>
+        <View style={styles.Box4}>
+          <View style={styles.box4}>
+            <View style={styles.row}>
+              <View style={styles.circle}></View>
+              <View style={styles.circle}></View>
+            </View>
+            <View style={styles.row}>
+              <View style={styles.circle}></View>
+              <View style={styles.circle}></View>
+            </View>
+          </View>
+        </View>
+      </View>
     </View>
   );
 }
-
 const styles = StyleSheet.create({
   container: {
- 
-    height:600,
-    width:500,
-    alignSelf:'center',
-    backgroundColor: 'black',
-    alignItems: 'center',
-    justifyContent: 'center',
+    flex: 1,
+    backgroundColor: "black",
+    justifyContent: "center",
   },
-  iinput: {
-    
-    borderWidth : 1,
-    borderColor : 'white',
-    backgroundColor:'transparent',
-    textShadowColor:'white',
-    borderRadius : 3,
-    bottom:200,
-    width : 300,
-    height : 10,
-    padding : 10,
-    margin : 10,
-    color: 'white',
+  wrapper: {
+    flexDirection: "row",
+    justifyContent: "center",
+    backgroundColor: "black",
   },
-  txt:
-  {flex:1,
-    color:'white',
-  textAlign:'center',
-  top:40,
-  fontSize:30,
-  alignItems:'center', 
-  fontWeight: 'bold',width:250}
+  wrapper2: {
+    flexDirection: "column",
+    justifyContent: "center",
+  },
+  Box1: {
+    backgroundColor: "red",
+    height: 150,
+    width: 150,
+  },
+  box1: {
+    backgroundColor: "maroon",
+    height: 100,
+    width: 100,
+    margin: 25,
+  },
+  Box2: {
+    backgroundColor: "gold",
+    height: 150,
+    width: 150,
+  },
+  box2: {
+    backgroundColor: "goldenrod",
+    height: 100,
+    width: 100,
+    margin: 25,
+  },
+  Box3: {
+    backgroundColor: "green",
+    height: 150,
+    width: 150,
+  },
+  box3: {
+    backgroundColor: "darkgreen",
+    height: 100,
+    width: 100,
+    margin: 25,
+  },
+  Box4: {
+    backgroundColor: "blue",
+    height: 150,
+    width: 150,
+  },
+  box4: {
+    backgroundColor: "darkblue",
+    height: 100,
+    width: 100,
+    margin: 25,
+  },
+  circle: {
+    backgroundColor: "white",
+    height: 20,
+    width: 20,
+    borderRadius: 20,
+    marginLeft: 10,
+    marginTop: 18,
+    marginRight: 10,
+    justifyContent: "center",
+  },
+  row: {
+    justifyContent: "center",
+    flexDirection: "row",
+  },
+  sbox: {
+    justifyContent: "center",
+    backgroundColor: "white",
+    height: 25,
+    width: 25,
+    borderRadius:6
+  },
+  sqBox:{
+    width:75,
+    height:75,
+    backgroundColor:'brown',
+    borderRadius:10
+  }
 });
+
+
+
